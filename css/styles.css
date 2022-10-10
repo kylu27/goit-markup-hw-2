@@ -1,0 +1,293 @@
+:root
+{
+    --font-family: 'Roboto', sans-serif;
+    --font-color: #000000;
+    --extra-color: #2196F3;
+    --font-p-color: #757575;
+
+}
+
+body
+{
+    font-family: var(--font-family);
+}
+
+.logo
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+span
+{
+    color: var(--extra-color);
+}
+
+.nav-links .link,
+.info-tel .link
+{
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.link:hover,
+.link:focus
+{
+    color: var(--font-color);
+    text-decoration-line: underline;
+    text-decoration-color: var(--extra-color);
+}
+
+.link,
+.link2:hover,
+.link,
+.link2:focus
+{
+    color: var(--font-color);
+    text-decoration-line: underline;
+    text-decoration-color: var(--extra-color)
+}
+
+.nav-links,
+.info-tel,
+.link,
+.address,
+.link2
+{
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    list-style-type: none;
+
+}
+
+.main-theme
+{
+    color: #FFFFFF;
+    width: 698px;
+    height: 120px;
+    font-weight: 900;
+    font-size: 44px;
+}
+
+button
+{
+    font-weight: 700;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--extra-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-color: var(--extra-color);
+}
+
+.headline4
+{
+    list-style-type: none;
+}
+
+h4
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.headline4 p
+{
+    font-family: var(--font-family);
+    color: var(--font-p-color);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+h2
+{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.zespol
+{
+    font-size: 14px;
+}
+
+.footlogo
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link2
+{
+    list-style-type: none;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--font-p-color);
+
+}
+
+
+.button-nav
+{
+    list-style-type: none;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
+.button1
+{
+    width: 121px;
+    height: 38px;
+    background-color: var(--extra-color);
+    border: 0;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-color: var(--extra-color);
+
+}
+
+.button2
+{
+    width: 93px;
+    height: 38px;
+    background-color: #F5F4FA;
+    border: 0;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.button3
+{
+    width: 114px;
+    height: 38px;
+    border: 0;
+    background-color: #F5F4FA;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.button4
+{
+    width: 91px;
+    height: 38px;
+    border: 0;
+    background-color: #F5F4FA;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.button5
+{
+    width: 121px;
+    height: 38px;
+    border: 0;
+    background-color: #F5F4FA;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.button1:hover,
+.button1:focus
+{
+    color: var(--font-color);
+    text-decoration-line: underline;
+    text-decoration-color: var(--extra-color)
+}
+
+.button2:hover,
+.button2:focus
+{
+    color: var(--font-color);
+    text-decoration-line: underline;
+    text-decoration-color: var(--extra-color)
+}
+
+.button3:hover,
+.button3:focus
+{
+    color: var(--font-color);
+    text-decoration-line: underline;
+    text-decoration-color: var(--extra-color)
+}
+
+.button4:hover,
+.button4:focus
+{
+    color: var(--font-color);
+    text-decoration-line: underline;
+    text-decoration-color: var(--extra-color)
+}
+
+.button5:hover,
+.button5:focus
+{
+    color: var(--font-color);
+    text-decoration-line: underline;
+    text-decoration-color: var(--extra-color)
+}
+
+
+.link-p
+{
+    text-decoration: none;
+}
+
+.portfolioh4
+{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.portfolio-p
+{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--font-p-color);
+}
+
+.portfolioh4:hover,
+.portfolioh4:focus
+{
+    color: var(--font-color);
+    text-decoration-line: underline;
+    text-decoration-color: var(--extra-color)
+}
+
+.portfolio-p:hover,
+.portfolio-p:focus
+{
+    color: var(--font-p-color);
+    text-decoration-line: underline;
+    text-decoration-color: var(--extra-color);
+}
