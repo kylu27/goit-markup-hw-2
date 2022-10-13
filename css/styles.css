@@ -4,12 +4,14 @@
     --font-color: #000000;
     --extra-color: #2196F3;
     --font-p-color: #757575;
+    --active-font: #ffffff;
 
 }
 
 body
 {
     font-family: var(--font-family);
+    background-color: #E5E5E5;
 }
 
 .logo
@@ -18,6 +20,7 @@ body
     font-weight: 700;
     color: var(--font-color);
     text-decoration: none;
+    line-height: 30.52px;
 }
 
 span
@@ -25,46 +28,60 @@ span
     color: var(--extra-color);
 }
 
-.nav-links .link,
-.info-tel .link
+.nav-links .link
 {
     font-family: var(--font-family);
     color: var(--font-color);
     font-weight: 500;
     font-size: 14px;
+    line-height: 16.41px;
 
 }
 
 .link:hover,
-.link:focus
+.link:active
 {
-    color: var(--font-color);
-    text-decoration-line: underline;
-    text-decoration-color: var(--extra-color);
+    color: var(--extra-color);
 }
 
-.link,
-.link2:hover,
-.link,
-.link2:focus
+.info-tel .linkmail,
+.linkphone
 {
-    color: var(--font-color);
-    text-decoration-line: underline;
-    text-decoration-color: var(--extra-color)
+    color: var(--font-p-color);
+    text-decoration: none;
+    line-height: 16.41px;
 }
 
-.nav-links,
+
 .info-tel,
+.linkphone:hover,
+.info-tel,
+.linkphone:active
+{
+    color: var(--extra-color);
+}
+
+.info-tel .linkmail:hover,
+.info-tel .linkmail:active
+{
+    color: var(--extra-color);
+}
+
+
+.info-tel,
+.nav-links,
 .link,
 .address,
-.link2
+.link-address
 {
     font-weight: 500;
     text-decoration: none;
     font-size: 14px;
     list-style-type: none;
-
+    line-height: 16.41px;
 }
+
+
 
 .main-theme
 {
@@ -73,6 +90,7 @@ span
     height: 120px;
     font-weight: 900;
     font-size: 44px;
+    line-height: 60px;
 }
 
 button
@@ -81,6 +99,7 @@ button
     font-size: 16px;
     width: 200px;
     height: 50px;
+    color: #FFFFFF;
     background-color: var(--extra-color);
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -104,6 +123,13 @@ h4
     color: var(--font-p-color);
     font-weight: 400;
     font-size: 14px;
+    line-height: 16.41px;
+
+}
+
+p
+{
+    line-height: 24px;
 }
 
 
@@ -112,6 +138,7 @@ h2
 {
     font-size: 36px;
     font-weight: 700;
+    line-height: 42.19px;
 }
 
 .zespol
@@ -125,9 +152,10 @@ h2
     font-weight: 700;
     color: #ffffff;
     text-decoration: none;
+    line-height: 30.52.px;
 }
 
-.link2
+.link-address
 {
     list-style-type: none;
     font-family: var(--font-family);
@@ -135,6 +163,7 @@ h2
     font-weight: 400;
     font-style: normal;
     color: var(--font-p-color);
+    line-height: 24px;
 
 }
 
@@ -146,22 +175,22 @@ h2
     text-decoration: underline;
 }
 
-.button1
+.buttonall
 {
     width: 121px;
     height: 38px;
-    background-color: var(--extra-color);
+    background-color: #F5F4FA;
     border: 0;
     cursor: pointer;
     font-family: var(--font-family);
+    color: var(--font-color);
     font-weight: 500;
     font-size: 16px;
-    text-decoration: underline;
-    text-decoration-color: var(--extra-color);
+
 
 }
 
-.button2
+.buttonweb
 {
     width: 93px;
     height: 38px;
@@ -169,12 +198,13 @@ h2
     border: 0;
     cursor: pointer;
     font-family: var(--font-family);
+    color: var(--font-color);
     font-weight: 500;
     font-size: 16px;
 
 }
 
-.button3
+.buttonapp
 {
     width: 114px;
     height: 38px;
@@ -182,12 +212,13 @@ h2
     background-color: #F5F4FA;
     cursor: pointer;
     font-family: var(--font-family);
+    color: var(--font-color);
     font-weight: 500;
     font-size: 16px;
 
 }
 
-.button4
+.buttondiz
 {
     width: 91px;
     height: 38px;
@@ -195,12 +226,13 @@ h2
     background-color: #F5F4FA;
     cursor: pointer;
     font-family: var(--font-family);
+    color: var(--font-color);
     font-weight: 500;
     font-size: 16px;
 
 }
 
-.button5
+.buttonmark
 {
     width: 121px;
     height: 38px;
@@ -208,49 +240,45 @@ h2
     background-color: #F5F4FA;
     cursor: pointer;
     font-family: var(--font-family);
+    color: var(--font-color);
     font-weight: 500;
     font-size: 16px;
 
 }
 
-.button1:hover,
-.button1:focus
+.buttonall:hover,
+.buttonall:active
 {
-    color: var(--font-color);
-    text-decoration-line: underline;
-    text-decoration-color: var(--extra-color)
+    color: var(--active-font);
+    background-color: var(--extra-color);
 }
 
-.button2:hover,
-.button2:focus
+.buttonweb:hover,
+.buttonweb:focus
 {
-    color: var(--font-color);
-    text-decoration-line: underline;
-    text-decoration-color: var(--extra-color)
+    color: var(--active-font);
+    background-color: var(--extra-color);
 }
 
-.button3:hover,
-.button3:focus
+.buttonapp:hover,
+.buttonapp:focus
 {
-    color: var(--font-color);
-    text-decoration-line: underline;
-    text-decoration-color: var(--extra-color)
+    color: var(--active-font);
+    background-color: var(--extra-color);
 }
 
-.button4:hover,
-.button4:focus
+.buttondiz:hover,
+.buttondiz:focus
 {
-    color: var(--font-color);
-    text-decoration-line: underline;
-    text-decoration-color: var(--extra-color)
+    color: var(--active-font);
+    background-color: var(--extra-color);
 }
 
-.button5:hover,
-.button5:focus
+.buttonmark:hover,
+.buttonmark:focus
 {
-    color: var(--font-color);
-    text-decoration-line: underline;
-    text-decoration-color: var(--extra-color)
+    color: var(--active-font);
+    background-color: var(--extra-color);
 }
 
 
